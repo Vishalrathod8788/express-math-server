@@ -1,0 +1,24 @@
+{
+  "name": "express-math-server",
+  "version": "1.0.0",
+  "description": "Learn Express Math Server",
+  "homepage": "https://github.com/Vishalrathod8788/express-math-server#readme",
+  "bugs": {
+    "url": "https://github.com/Vishalrathod8788/express-math-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishalrathod8788/express-math-server.git"
+  },
+  "license": "MIT",
+  "author": "Vishal Rathod",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file=.env --watch app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
